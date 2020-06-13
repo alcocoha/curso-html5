@@ -1,0 +1,70 @@
+@import "variables.css";
+@import "animations.css";
+@import "seccion-buscador.css";
+@import "seccion-video.css";
+@import "seccion-audio.css";
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  background-color: var(--primer-color);
+  /* background-color: aquamarine; */
+  position: relative;
+  padding-left: 10%;
+  padding-right: 10%;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+header .logotipo{
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    color: var(--logo-color);
+}
+
+header .menu-cabecera{
+    font-family: "Raleway", sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .menu-cabecera a{
+    text-decoration: none;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 20px;
+    color: var(--btn-menu-color);
+}
+
+header .menu-cabecera a:hover{
+    color: var(--btn-login-color);
+}
+
+header .menu-cabecera a.login{
+    color: var(--btn-login-color);
+    border: 2px solid var(--btn-login-color);
+    border-radius: 5px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: bold;
+}
+
+footer {
+    font-family: "Raleway", sans-serif;
+    background-color: var(--cuarto-color);
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+
+

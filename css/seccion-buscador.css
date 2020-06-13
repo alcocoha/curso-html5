@@ -1,0 +1,193 @@
+.contenedor-buscado {
+    background-color: var(--primer-color);
+    height: var(--alto-contenedor);
+}
+
+.contenedor-buscado .contenedor{
+    margin-left: 10%;
+    margin-right: 10%;
+    position: relative;
+    height: var(--alto-contenedor);
+}
+
+.contenedor-buscado .adornos{
+    width: 200px;
+    height: 772px;
+    position: absolute;
+    margin: auto;
+    right: 0;
+    left: 0;
+}
+
+.contenedor-buscado .adorno_1{
+    position: absolute;
+    top: 10%;
+    opacity: 0;
+    transform: rotate(100deg);
+    animation-delay: 0.5s;
+    animation-duration: 1s;
+    animation-name: deslizarCentro;
+    /* animation-iteration-count: infinite; Este es un loop infinito  */
+    animation-fill-mode: forwards;
+}
+.contenedor-buscado .adorno_2{
+    position: absolute;
+    top: 20%;
+    right: 0;
+    animation-duration: 1s;
+    animation-name: deslizarDer;
+}
+.contenedor-buscado .adorno_3{
+    position: absolute;
+    top: 20%;
+    left: 0;
+    animation-duration: 1s;
+    animation-name: deslizarIzq;
+}
+.contenedor-buscado .adorno_4{
+    position: absolute;
+    top: 30%;
+    right: 0;
+    animation-duration: 1s;
+    animation-name: deslizarDer;
+}
+.contenedor-buscado .adorno_5{
+    position: absolute;
+    top: 35%;
+    left: 30%;
+    animation-duration: 1s;
+    animation-name: deslizarCentro;
+}
+.contenedor-buscado .adorno_6{
+    position: absolute;
+    top: 45%;
+    left: 0;
+    animation-duration: 1s;
+    animation-name: deslizarIzq;
+}
+.contenedor-buscado .adorno_7{
+    position: absolute;
+    top: 60%;
+    right: 0;
+    opacity: 0;
+    animation-delay: .5s;
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+    animation-name: deslizarDer;
+}
+.contenedor-buscado .adorno_8{
+    position: absolute;
+    top: 75%;
+    left: 30%;
+    animation-duration: 1s;
+    animation-name: deslizarCentro;
+}
+.contenedor-buscado .adorno_9{
+    position: absolute;
+    top:90%;
+    left: 0;
+    animation-duration: 1s;
+    animation-name: deslizarIzq;
+}
+
+.contenedor-buscado .contentedor-persona{
+    position: absolute;
+    height: var(--alto-contenedor);
+    width: 100%;
+}
+
+.contenedor-buscado .contentedor-persona .fondo-persona{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.contenedor-buscado .contentedor-persona .persona{
+    position: absolute;
+    right: 100px;
+    opacity: 0;
+    bottom: 0;
+    animation-name: persona;
+    animation-duration: 2s;
+    animation-delay: .5s;
+    animation-fill-mode: forwards;
+}
+
+.contenedor-buscado .buscador{
+    position: absolute;
+    bottom: 14%;
+    width: 50%;
+    height: 300px;
+    left: 10%;
+}
+
+.contenedor-buscado .buscador h1{
+    font-family: "Raleway", sans-serif;
+    font-size: 80px;
+    color: var(--letras-buscador);
+    position: absolute;
+    bottom: 10%;
+}
+
+.contenedor-buscado .buscador h3{
+    font-family: "Raleway", sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+    color: var(--letras-buscador);
+    position: absolute;
+    bottom: 45%;
+}
+
+.contenedor-buscado .buscador .input-buscador{
+    position: absolute;
+    bottom: 10%;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    transition: width .5s;
+}
+.contenedor-buscado .buscador .input-buscador:hover{
+    width: 100%;
+}
+.contenedor-buscado .buscador .input-buscador input {
+    padding: 20px;
+    padding-left: 60px;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    border: var(--border-buscador);
+    border-radius: 10px;
+    width: 100%;
+    background-color: var(--primer-color);
+    outline: none;
+}
+
+.contenedor-buscado .buscador .input-buscador button {
+    background: transparent;
+    border: none;
+    width: 80px;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: var(--btn-login-color);
+}
+
+.contenedor-buscado .buscador .input-buscador .icono-buscar{
+    position: absolute;
+    top: 0;
+    left: 20px;
+    bottom: 0;
+    margin: auto;
+}
+
+.contenedor-buscado .flecha-abajo{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    animation-delay: 2s;
+    animation-name: animacionFlecha;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}

@@ -1,0 +1,35 @@
+.contenedor-audio {
+    background-color: var(--segundo-color);
+    height: var(--alto-contenedor);
+    display: flex;
+    justify-content: center;
+    background-color: var(--tercer-color);
+}
+
+.contenedor-audio article{
+    width: 1000px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.contenedor-audio article .audio{
+    background-color: white;
+    /* width: 400px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 3%;
+    align-items: center;
+    position: relative;
+}
+
+.audio-icono{
+    width: 100%;
+    position: absolute;
+    width: 80px;
+    left: -20px;
+    top: -20px;
+}
