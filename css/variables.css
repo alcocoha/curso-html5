@@ -9,4 +9,7 @@
     --alto-contenedor: 772px;
     --letras-buscador: white;
     --border-buscador: 2px solid white;
+    --header-screen-480: purple;
+    --header-screen-768: orange; /* ESTA RESOLUCIÓN SERA TAREA */
+    --header-screen-1024: blue;
 }

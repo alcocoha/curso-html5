@@ -1,0 +1,69 @@
+@import "variables.css";
+
+@media screen and ( max-width: 480px) {
+
+    header {
+        background-color: var(--header-screen-480);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 142px;
+    }
+    header .logotipo {
+        font-size: 38px;
+        text-align: center;
+    }
+
+    header .menu-cabecera a {
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 14px;
+    }
+
+    .contenedor-buscado .adornos {
+        display: none;
+    }
+
+    .contenedor-buscado .contentedor-persona .fondo-persona {
+        width: 100%;
+    }
+
+    .contenedor-buscado .contentedor-persona .persona {
+        width: 100%;
+        right: inherit;
+    }
+
+    .contenedor-buscado .buscador {
+        bottom: inherit;
+        top: 0;
+        width: 100%;
+        left: inherit;
+    }
+
+    .contenedor-video article {
+        padding: 5px;
+    }
+
+    .contenedor-video article video {
+        width: 350px;
+    }
+
+    .contenedor-audio {
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .contenedor-audio article {
+        width: 100%;
+        padding-top: 20px;
+        padding-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contenedor-audio .audio-mt {
+        margin-top: 45px;
+    }
+
+}

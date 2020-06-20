@@ -1,0 +1,8 @@
+@import "variables.css";
+
+@media screen and ( max-width: 768px) {
+
+    header {
+        background-color: var(--header-screen-768);
+    }
+}

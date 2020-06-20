@@ -123,7 +123,7 @@
 
 .contenedor-buscado .buscador h1{
     font-family: "Raleway", sans-serif;
-    font-size: 80px;
+    font-size: 69px;
     color: var(--letras-buscador);
     position: absolute;
     bottom: 10%;
@@ -131,11 +131,11 @@
 
 .contenedor-buscado .buscador h3{
     font-family: "Raleway", sans-serif;
-    font-size: 50px;
+    font-size: 49px;
     font-weight: 400;
     color: var(--letras-buscador);
     position: absolute;
-    bottom: 45%;
+    bottom: 42%;
 }
 
 .contenedor-buscado .buscador .input-buscador{

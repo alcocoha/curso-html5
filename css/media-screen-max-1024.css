@@ -1,0 +1,47 @@
+@import "variables.css";
+
+@media screen and ( max-width: 1024px) {
+
+    header {
+        background-color: var(--header-screen-1024);
+    }
+    .contenedor-buscado .contenedor {
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+
+    .contenedor-buscado .adornos {
+        right: inherit;
+    }
+
+    .contenedor-buscado .buscador {
+        left: 5%;
+        bottom: 26%;
+    }
+
+    .contenedor-buscado .buscador h1 {
+        font-size: 48px;
+        bottom: 20%;
+    }
+
+    .contenedor-buscado .buscador h3 {
+        font-size: 35px;
+        bottom: 43%;
+    }
+
+    .contenedor-video article {
+        padding: 69px;
+    }
+
+    .contenedor-video article video {
+        width: 600px;
+    }
+    .contenedor-audio article {
+        width: 700px;
+        padding-top: 200px;
+        padding-bottom: 200px;
+    }
+    .contenedor-audio article .audio {
+        width: 280px;
+    }
+}
